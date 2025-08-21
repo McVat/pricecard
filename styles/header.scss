@@ -8,7 +8,6 @@
     align-items: center;
     &__button {
         display: none;
-        margin-bottom: auto !important;
     }
     &__menu-button {
         width: 58px;
@@ -41,11 +40,10 @@
 
 .logo {
     display: flex;
-    margin-top: 8px;
-    margin-bottom: auto;
-    margin-left: 10px;
+    margin-top: 2px;
     &__image {
-        height: 50px;
+        margin-left: 15px;
+        height: 48px;
         margin-right: 13px;
     }
     &__name {
@@ -72,8 +70,7 @@
         background-color: $primary-backround-color;
         width: $page-width;
         height: 62px;
-        margin-left: 125px;
-        margin-right: 130px;
+        margin: auto;
         display: flex;
         &__button {
             display: block;
@@ -87,14 +84,11 @@
         padding-top: 39px;
     }
     .logo {
-        &__text {}
         &__image {
-            height: 70px;
+            height: 60px;
             margin-right: 15px;
         }
         &__description {
-            margin-top: 4px;
-            margin-bottom: 5px;
             display: block;
             font-size: 18px;
             line-height: 25px;
@@ -105,11 +99,10 @@
     .navigation {
         display: block;
         margin-left: auto;
-        margin-top: 5px;
+        margin-top: 7px;
         margin-right: 75px;
-        margin-bottom: auto;
         &__item {
-            margin-right: 40px;
+            margin-right: 50px;
             color: $text-color;
             text-decoration: none;
             line-height: 25px;
@@ -120,9 +113,6 @@
             &:last-child {
                 margin-right: 0;
             }
-        }
-        &__arrow {
-            display: none;
         }
     }
 }
