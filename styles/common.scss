@@ -1,0 +1,43 @@
+@import "variables.scss";
+@import "breakpoints.scss";
+.action_button,
+.learn-more-btn {
+    box-shadow: 0px 4px 6px 0px #0000000d;
+    color: #fff;
+    width: 160px;
+    height: 48px;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    border-radius: 2px;
+    margin: 0;
+}
+
+.action_button,
+.learn-more-btn {
+    background-color: $primary-button-color;
+}
+
+.learn-more-btn {
+    background-color: #fff;
+    color: $primary-button-color;
+}
+
+@include small-screen {
+    .hide-mobile {
+        display: none;
+    }
+}
+
+@include large-screen {
+    .hide-desktop {
+        display: none;
+    }
+}
+
+.icon-arrow_right {
+    display: block;
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right.png);
+    width: 7px;
+    height: 12px;
+}

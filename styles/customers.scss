@@ -1,0 +1,53 @@
+@import "variables.scss";
+@import "breakpoints.scss";
+.customers {
+    display: flex;
+    flex-direction: column;
+    &__row {
+        display: flex;
+    }
+    &__item {
+        height: 94px;
+        width: 107px;
+        border-bottom: 1px solid #e3e3e3;
+        border-right: 1px solid #e3e3e3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+        &:last-child {
+            border-right: none;
+        }
+    }
+}
+
+@include small_screen {
+    .customers {
+        &__logo {
+            filter: brightness(0);
+            max-width: 80%;
+        }
+    }
+}
+
+@include large_screen {
+    .customers {
+        width: $page-width;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        padding-top: 30px;
+        padding-bottom: 106px;
+        flex-direction: row;
+        &__row {
+            flex: 1;
+            justify-content: space-around;
+        }
+        &__item {
+            border: none;
+        }
+        &__logo {
+            filter: brightness(0);
+        }
+    }
+}
