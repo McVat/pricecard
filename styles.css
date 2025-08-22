@@ -1168,6 +1168,8 @@
   .order__image {
     height: 297px;
     margin-left: 226px;
+    margin-top: 72px;
+    margin-bottom: auto;
   }
   .order__column {
     padding: 0;
@@ -1180,6 +1182,8 @@
   .order__title {
     margin: 0;
     text-align: left;
+    height: 48px;
+    letter-spacing: -0.25px;
   }
   .order__description {
     margin-top: 12px;
@@ -1198,6 +1202,7 @@
   .email-container__input::placeholder {
     text-align: left;
     margin-left: 15px;
+    text-indent: 15px;
   }
   .email-container__button {
     width: 160px;
