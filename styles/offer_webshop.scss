@@ -1,0 +1,9 @@
+@import "variables.scss";
+.webshop-offer {
+    .price {
+        background-color: $webshop-offer-color;
+    }
+    &__button {
+        background-color: $webshop-offer-color;
+    }
+}

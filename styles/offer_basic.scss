@@ -1,0 +1,9 @@
+@import "variables.scss";
+.basic-offer {
+    .price {
+        background-color: $basic-offer-color;
+    }
+    &__button {
+        background-color: $basic-offer-color;
+    }
+}
