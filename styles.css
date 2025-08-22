@@ -142,6 +142,8 @@ html {
 }
 
 .offer-blocks-container {
+  margin-top: 57.5px;
+  margin-bottom: auto;
   display: flex;
   width: 100%;
   flex-direction: row;
@@ -149,7 +151,7 @@ html {
 }
 
 .page {
-  padding: 115px 132px;
+  padding: 0 132px;
   display: flex;
   flex-direction: row;
   margin: auto;
