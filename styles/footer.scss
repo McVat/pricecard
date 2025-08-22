@@ -143,6 +143,11 @@
         &__line {
             margin-top: 0;
         }
+        .logo {
+            &__image {
+                height: 60px;
+            }
+        }
     }
     .social-links {
         margin-left: auto;
@@ -174,6 +179,7 @@
     }
     .downloads {
         justify-content: left;
+        margin-left: 0;
     }
     .terms {
         line-height: 50px;

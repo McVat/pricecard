@@ -254,6 +254,9 @@
   .footer__line {
     margin-top: 0;
   }
+  .footer .logo__image {
+    height: 60px;
+  }
   .social-links {
     margin-left: auto;
     margin-bottom: 0;
@@ -284,6 +287,7 @@
   }
   .downloads {
     justify-content: left;
+    margin-left: 0;
   }
   .terms {
     line-height: 50px;
@@ -309,6 +313,7 @@
   margin-bottom: 0;
 }
 .headline__title {
+  height: 205px;
   margin-bottom: 0;
   font-weight: 700;
   font-size: 50px;
@@ -316,7 +321,7 @@
   letter-spacing: -0.3125px;
 }
 .headline__actions {
-  margin-top: 32px;
+  margin-top: 17px;
 }
 .headline__learn-more-btn {
   background-color: #fff;
@@ -1085,6 +1090,119 @@
   .audience-button {
     margin: 0;
     width: 262px;
+  }
+}
+.order {
+  width: 100%;
+  background-color: #f4f5f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.order__image {
+  height: 220px;
+  margin-top: 50px;
+}
+.order__column {
+  padding: 0 15px;
+  margin-bottom: 50px;
+}
+.order__title {
+  color: #2b292d;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -0.25px;
+  text-align: center;
+  margin: 0;
+  margin-top: 40px;
+}
+.order__description {
+  color: #2b292d;
+  font-size: 22px;
+  line-height: 32px;
+  margin: 0;
+  margin-top: 18px;
+}
+
+.email-container {
+  width: 100%;
+  margin-top: 79px;
+}
+.email-container__input {
+  width: 100%;
+  border: 1px solid rgba(43, 41, 45, 0.2);
+  border-radius: 2px;
+  height: 48px;
+}
+.email-container__input::placeholder {
+  color: #2b292d;
+  font-size: 18px;
+  line-height: 14px;
+  text-align: center;
+}
+.email-container__button {
+  margin-top: 12px;
+  width: 100%;
+}
+
+.email__description {
+  margin: 0;
+  color: rgba(43, 41, 45, 0.6);
+  font-size: 14px;
+  line-height: 22px;
+  margin-top: 10px;
+}
+.email__description__link {
+  margin: 0;
+  color: #3040c4;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+@media screen and (min-width: 1400px) {
+  .order {
+    height: 441px;
+    flex-direction: row;
+  }
+  .order__image {
+    height: 297px;
+    margin-left: 226px;
+  }
+  .order__column {
+    padding: 0;
+    width: 555px;
+    margin-top: 106px;
+    margin-right: 227px;
+    margin-left: auto;
+    margin-bottom: auto;
+  }
+  .order__title {
+    margin: 0;
+    text-align: left;
+  }
+  .order__description {
+    margin-top: 12px;
+  }
+  .email-container {
+    margin: 0;
+    margin-top: 26px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .email-container__input {
+    height: 48px;
+    width: 385px;
+  }
+  .email-container__input::placeholder {
+    text-align: left;
+    margin-left: 15px;
+  }
+  .email-container__button {
+    width: 160px;
+    margin: 0;
+    margin-left: 10px;
   }
 }
 * {
